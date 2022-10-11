@@ -15,7 +15,7 @@
     <div class="container text-center">
     <form class="form-signin" method="post">
         {% csrf_token %}
-      <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+      <h1 class="h3 mb-3 font-weight-normal">Entrar</h1>
           <div class="{% if form.non_field_errors %}invalid{% endif %} mb-2">
       {% for error in form.non_field_errors %}
         {{ error }}
